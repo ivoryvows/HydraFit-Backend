@@ -4,8 +4,8 @@ main = "src/index.js"
 compatibility_date = "2026-11-20"
 
 [vars]
-VAPID_PUBLIC_KEY = "BPjZjGl8QVU4xbhy5-ucvYKYZT9EEpOOCMG2cC__uYVHbyhZevb4aQToI56ozRlHnQO_DkvonMbx-RVLfkd7yXQ"
 VAPID_SUBJECT = "https://ivoryvows.github.io/HydraFit/"
+VAPID_PUBLIC_KEY = "BPjZjGl8QVU4xbhy5-ucvYKYZT9EEpOOCMG2cC__uYVHbyhZevb4aQToI56ozRlHnQO_DkvonMbx-RVLfkd7yXQ"
 
 [[d1_databases]]
 binding = "DB"
@@ -14,3 +14,17 @@ database_id = "9cb0a9c0-16d2-4886-a4a7-4b9f89dadd39"
 
 [triggers]
 crons = ["* * * * *"]
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = false
+head_sampling_rate = 1
+persist = true
+
+[observability.issue_detection]
+enabled = false
