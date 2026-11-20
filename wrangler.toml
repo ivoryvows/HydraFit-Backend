@@ -9,7 +9,6 @@ VAPID_SUBJECT = "https://ivoryvows.github.io/HydraFit/"
 [[d1_databases]]
 binding = "DB"
 database_name = "hydrafit-db"
-database_id = "PASTE_YOUR_DATABASE_ID_HERE"
-
+database_id = "9cb0a9c0-16d2-4886-a4a7-4b9f89dadd39"
 [triggers]
 crons = ["* * * * *"]
