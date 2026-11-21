@@ -5,7 +5,7 @@ compatibility_date = "2026-11-20"
 
 [vars]
 VAPID_SUBJECT = "https://ivoryvows.github.io/HydraFit/"
-VAPID_PUBLIC_KEY = "BOUluaAcDokUOt3MePQq_Fhs8tj1VsZpCIGbky9srtYFC7upMQyeXT1gYebyFTidR6PbjbEjOqLsiUqFSyKZ0ps"
+VAPID_PUBLIC_KEY = "BKjjiLUcmRSDdhNGFpQ2tr8pRoPUQOpusegiDJhYvUMhZMMy5ctWYLL54wJZ0TDjcmwQbaOULALVeiGIQh0mlDs
 
 [[d1_databases]]
 binding = "DB"
