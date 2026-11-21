@@ -138,7 +138,8 @@ export default {
         ).run();
 
       } catch (error) {
-        console.error("Push error:", error);
+        console.error("Push error:", error?.message || String(error));
+console.error("Full error:", JSON.stringify(error, Object.getOwnPropertyNames(error)));
       }
     }
   },
